@@ -41,4 +41,4 @@ add_library(EMCALTriggerFast SHARED ${SRCS} ${HDRS})
 install(TARGETS EMCALTriggerFast
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib)
-install(FILES ${HDRS} DESTINATION include)
+install(FILES ${HDRS} DESTINATION include/${MODULE})
